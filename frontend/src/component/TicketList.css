@@ -1,0 +1,49 @@
+/* TicketList.css */
+
+.ticket-list{
+    width: 70%;
+    margin: auto;
+}
+
+.ticket-card{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.ticket-buttons button{
+    margin-right: 5px;
+    padding: 6px 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.progress-btn{
+    background-color: blue;
+}
+
+.resolve-btn{
+    background-color: rgb(164, 220, 164);
+}
+
+.delete-btn{
+    background-color: red;
+}
+
+.status-open{
+    color: orange;
+    font-weight: bold;
+}
+
+.status-in-progress{
+    color: blue;
+    font-weight: bold;
+}
+
+.status-resolved{
+    color: green;
+    font-weight: bold;
+}
